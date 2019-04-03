@@ -13,12 +13,12 @@
 
 ##三、代码实现
 
-<UIGraphicsBeginImageContextWithOptions(view.frame.size, YES, 1.0);   
+>UIGraphicsBeginImageContextWithOptions(view.frame.size, YES, 1.0);   
 CGContextRef context = UIGraphicsGetCurrentContext();   
 [view.layer renderInContext:context];  
 UIImage *endImage =     UIGraphicsGetImageFromCurrentImageContext();  
 UIGraphicsEndImageContext();  
-self.nImageView = endImage;>
+self.nImageView = endImage;
 
 *绘制的长图有模糊的现象：* 解决方案
 
