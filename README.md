@@ -26,8 +26,3 @@ self.nImageView = endImage;>```
 2）UIGraphicsBeginImageContext(CGSizeMake(headImgW, headImgH+carImgH));
 改为
 UIGraphicsBeginImageContextWithOptions(CGSizeMake(headImgW, headImgH+carImgH), NO, [UIScreen mainScreen].scale);```
-
-
-
-
-
