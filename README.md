@@ -7,7 +7,7 @@
 
 
 #二、效果图
-
+![图片名称]()
 
 
 #三、代码实现
@@ -23,7 +23,9 @@ self.nImageView = endImage;>`
 *绘制的长图有模糊的现象：* 解决方案
 
 1）`UIGraphicsBeginImageContextWithOptions(carInfoV.frame.size, true, [[UIScreen mainScreen] scale]);`
-2）`UIGraphicsBeginImageContext(CGSizeMake(headImgW, headImgH+carImgH));改为UIGraphicsBeginImageContextWithOptions(CGSizeMake(headImgW, headImgH+carImgH), NO, [UIScreen mainScreen].scale);`
+2）`UIGraphicsBeginImageContext(CGSizeMake(headImgW, headImgH+carImgH));
+改为
+UIGraphicsBeginImageContextWithOptions(CGSizeMake(headImgW, headImgH+carImgH), NO, [UIScreen mainScreen].scale);`
 
 
 
