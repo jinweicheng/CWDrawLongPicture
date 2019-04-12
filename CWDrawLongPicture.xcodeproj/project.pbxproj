@@ -15,6 +15,16 @@
 		DA1F602A2185D554005C04F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1F60292185D554005C04F9 /* main.m */; };
 		DA1F60342185D554005C04F9 /* CWDrawLongPictureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1F60332185D554005C04F9 /* CWDrawLongPictureTests.m */; };
 		DA1F603F2185D554005C04F9 /* CWDrawLongPictureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1F603E2185D554005C04F9 /* CWDrawLongPictureUITests.m */; };
+		DA1F60512185D94B005C04F9 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA1F604C2185D948005C04F9 /* 4.jpg */; };
+		DA1F60522185D94B005C04F9 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA1F604D2185D949005C04F9 /* 3.jpg */; };
+		DA1F60532185D94B005C04F9 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA1F604E2185D949005C04F9 /* 5.jpg */; };
+		DA1F60542185D94B005C04F9 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA1F604F2185D94A005C04F9 /* 2.jpg */; };
+		DA1F60552185D94B005C04F9 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DA1F60502185D94A005C04F9 /* 1.jpg */; };
+		DA1F605A2185DD6F005C04F9 /* CWSpecialHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA1F60572185DD6F005C04F9 /* CWSpecialHeaderView.xib */; };
+		DA1F605B2185DD6F005C04F9 /* CWSpecialHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1F60592185DD6F005C04F9 /* CWSpecialHeaderView.m */; };
+		DA1F60602185DE18005C04F9 /* CWBigSpecialPushCarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA1F605E2185DE18005C04F9 /* CWBigSpecialPushCarCell.xib */; };
+		DA1F60612185DE18005C04F9 /* CWBigSpecialPushCarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1F605F2185DE18005C04F9 /* CWBigSpecialPushCarCell.m */; };
+		DA1F60652185E4B0005C04F9 /* CWLongPicController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1F60632185E4AF005C04F9 /* CWLongPicController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,19 @@
 		DA1F603A2185D554005C04F9 /* CWDrawLongPictureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CWDrawLongPictureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA1F603E2185D554005C04F9 /* CWDrawLongPictureUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CWDrawLongPictureUITests.m; sourceTree = "<group>"; };
 		DA1F60402185D554005C04F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA1F604C2185D948005C04F9 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		DA1F604D2185D949005C04F9 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		DA1F604E2185D949005C04F9 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		DA1F604F2185D94A005C04F9 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		DA1F60502185D94A005C04F9 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		DA1F60572185DD6F005C04F9 /* CWSpecialHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CWSpecialHeaderView.xib; sourceTree = "<group>"; };
+		DA1F60582185DD6F005C04F9 /* CWSpecialHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWSpecialHeaderView.h; sourceTree = "<group>"; };
+		DA1F60592185DD6F005C04F9 /* CWSpecialHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWSpecialHeaderView.m; sourceTree = "<group>"; };
+		DA1F605D2185DE18005C04F9 /* CWBigSpecialPushCarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWBigSpecialPushCarCell.h; sourceTree = "<group>"; };
+		DA1F605E2185DE18005C04F9 /* CWBigSpecialPushCarCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CWBigSpecialPushCarCell.xib; sourceTree = "<group>"; };
+		DA1F605F2185DE18005C04F9 /* CWBigSpecialPushCarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWBigSpecialPushCarCell.m; sourceTree = "<group>"; };
+		DA1F60632185E4AF005C04F9 /* CWLongPicController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWLongPicController.m; sourceTree = "<group>"; };
+		DA1F60642185E4AF005C04F9 /* CWLongPicController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWLongPicController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +128,14 @@
 				DA1F601B2185D552005C04F9 /* AppDelegate.m */,
 				DA1F601D2185D552005C04F9 /* ViewController.h */,
 				DA1F601E2185D552005C04F9 /* ViewController.m */,
+				DA1F60622185E4AF005C04F9 /* LongPictureVC */,
+				DA1F605C2185DE18005C04F9 /* Cell */,
+				DA1F60562185DD6E005C04F9 /* HeaderView */,
+				DA1F60502185D94A005C04F9 /* 1.jpg */,
+				DA1F604F2185D94A005C04F9 /* 2.jpg */,
+				DA1F604D2185D949005C04F9 /* 3.jpg */,
+				DA1F604C2185D948005C04F9 /* 4.jpg */,
+				DA1F604E2185D949005C04F9 /* 5.jpg */,
 				DA1F60202185D552005C04F9 /* Main.storyboard */,
 				DA1F60232185D554005C04F9 /* Assets.xcassets */,
 				DA1F60252185D554005C04F9 /* LaunchScreen.storyboard */,
@@ -130,6 +161,35 @@
 				DA1F60402185D554005C04F9 /* Info.plist */,
 			);
 			path = CWDrawLongPictureUITests;
+			sourceTree = "<group>";
+		};
+		DA1F60562185DD6E005C04F9 /* HeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				DA1F60582185DD6F005C04F9 /* CWSpecialHeaderView.h */,
+				DA1F60592185DD6F005C04F9 /* CWSpecialHeaderView.m */,
+				DA1F60572185DD6F005C04F9 /* CWSpecialHeaderView.xib */,
+			);
+			path = HeaderView;
+			sourceTree = "<group>";
+		};
+		DA1F605C2185DE18005C04F9 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				DA1F605D2185DE18005C04F9 /* CWBigSpecialPushCarCell.h */,
+				DA1F605E2185DE18005C04F9 /* CWBigSpecialPushCarCell.xib */,
+				DA1F605F2185DE18005C04F9 /* CWBigSpecialPushCarCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		DA1F60622185E4AF005C04F9 /* LongPictureVC */ = {
+			isa = PBXGroup;
+			children = (
+				DA1F60642185E4AF005C04F9 /* CWLongPicController.h */,
+				DA1F60632185E4AF005C04F9 /* CWLongPicController.m */,
+			);
+			path = LongPictureVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +295,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA1F60522185D94B005C04F9 /* 3.jpg in Resources */,
+				DA1F60512185D94B005C04F9 /* 4.jpg in Resources */,
 				DA1F60272185D554005C04F9 /* LaunchScreen.storyboard in Resources */,
+				DA1F605A2185DD6F005C04F9 /* CWSpecialHeaderView.xib in Resources */,
+				DA1F60532185D94B005C04F9 /* 5.jpg in Resources */,
 				DA1F60242185D554005C04F9 /* Assets.xcassets in Resources */,
+				DA1F60552185D94B005C04F9 /* 1.jpg in Resources */,
 				DA1F60222185D552005C04F9 /* Main.storyboard in Resources */,
+				DA1F60542185D94B005C04F9 /* 2.jpg in Resources */,
+				DA1F60602185DE18005C04F9 /* CWBigSpecialPushCarCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +332,9 @@
 				DA1F601F2185D552005C04F9 /* ViewController.m in Sources */,
 				DA1F602A2185D554005C04F9 /* main.m in Sources */,
 				DA1F601C2185D552005C04F9 /* AppDelegate.m in Sources */,
+				DA1F605B2185DD6F005C04F9 /* CWSpecialHeaderView.m in Sources */,
+				DA1F60652185E4B0005C04F9 /* CWLongPicController.m in Sources */,
+				DA1F60612185DE18005C04F9 /* CWBigSpecialPushCarCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,7 +504,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NDVMPE6EPT;
 				INFOPLIST_FILE = CWDrawLongPicture/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,7 +522,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NDVMPE6EPT;
 				INFOPLIST_FILE = CWDrawLongPicture/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
